@@ -1,0 +1,65 @@
+@import url("normalize.css");
+
+/* Typography */
+html {
+  font-size: 62.5%;
+  position: relative;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+/* Heading */
+.heading {
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  position: absolute;
+  padding: 0.5rem 2rem;
+  margin: 2rem;
+}
+
+.button-yes {
+  top: 45rem;
+  left: 40%;
+}
+
+.button-no {
+  top: 45rem;
+  left: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .button-yes {
+    top: 30rem;
+    left: 30%;
+  }
+
+  .button-no {
+    top: 30rem;
+    left: 60%;
+  }
+}
